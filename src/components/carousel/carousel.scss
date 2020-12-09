@@ -1,0 +1,40 @@
+.carousel-container {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.car-container {
+    width: 20em;
+
+    .image-container {
+        width: inherit;
+    }
+
+    .grid-links {
+        align-self: center;
+        display: grid;
+        justify-content: center;
+        grid-gap: 24px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.dots-grid {
+    grid-gap: 12px;
+}
+
+.navigation-button {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    &.inverted {
+        transform: rotate(180deg);
+    }
+}
+
+.test {
+    &:hover{
+        background: green;
+    }
+}
+
