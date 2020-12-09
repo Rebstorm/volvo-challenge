@@ -3,7 +3,6 @@ import {render, unmountComponentAtNode} from "react-dom";
 import {StyleProvider, ThemeProvider} from "vcc-ui";
 import volvo from "vcc-ui/lib/themes/volvo";
 import React from "react";
-import {NavigationButtonRow} from "./navigation-button-row";
 import {Dot} from "./dot";
 
 let container: Element;
